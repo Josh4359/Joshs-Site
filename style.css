@@ -1,0 +1,66 @@
+html, body
+{
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    color:white;
+    background-color: hsl(0, 0%, 15%);
+}
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul
+{
+    background-color: hsl(0, 0%, 10%);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    margin: 0;
+    margin-right: 0;
+}
+
+.navbar a:hover
+{
+    background-color: hsl(0, 0%, 20%);
+}
+
+.navbar li
+{
+    float: left;
+}
+
+main
+{
+    margin: 8px;
+    flex: 1;
+}
+
+footer
+{
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    margin: 0;
+}
