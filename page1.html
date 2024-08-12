@@ -7,17 +7,28 @@
     <link rel="icon" href="/icon-circle.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 </head>
 <body>
     <custom-header title="Page 1"></custom-header>
 
     <main>
-    <h2>This is a test</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, odit. Libero maxime, necessitatibus repellat, perspiciatis sunt vitae quaerat alias suscipit illum nobis fugiat, excepturi sint est vero aliquam eius saepe.</p>
+        <h2>This is a test</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, odit. Libero maxime, necessitatibus repellat, perspiciatis sunt vitae quaerat alias suscipit illum nobis fugiat, excepturi sint est vero aliquam eius saepe.</p>
+        <pre style="border-radius: 8px; overflow: hidden;"><code class="language-csharp">
+            void Test()
+            {
+                print("highlight.js");
+            }
+        </code></pre>
     </main>
     
     <footer>
         <p>This is a footer</p>
     </footer>
+
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
