@@ -58,6 +58,15 @@ main
     flex: 1;
 }
 
+.hljs
+{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    overflow: hidden;
+    max-height: 512px;
+    overflow-y: auto;
+}
+
 footer
 {
     color: white;

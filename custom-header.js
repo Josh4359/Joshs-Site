@@ -1,5 +1,3 @@
-console.log("This is a test");
-
 class CustomHeader extends HTMLElement
 {
     static get observedAttributes()
