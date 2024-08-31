@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const scriptTag = document.querySelector('script[src="load-code.js"]');
-    console.log(this);
+    console.log(j);
     const highlightedCodeId = scriptTag.getAttribute('codeId');
     const csharpFile = scriptTag.getAttribute('data-csharp-file');
     const codeElement = document.querySelector(`#${highlightedCodeId}`);
